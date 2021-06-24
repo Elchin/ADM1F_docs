@@ -1,0 +1,34 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Compile ADM1F}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Running ADM1F}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {3}ADM1F SRT}{7}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Inputs/Outputs}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Initial Conditions {[}ic.dat{]}}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Influent Data {[}influent.dat{]}}{10}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Parameters {[}params.dat{]}}{11}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Outputs {[}indicator***.out{]}}{13}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Examples}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}ADM1F: Steady State}{17}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}1. Steady State Run}{17}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}2. Comparison of the ADM1F (C++) with ADM1 (Matlab)}{18}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}ADM1F: Execution time}{19}{section.5.2}%
+\contentsline {section}{\numberline {5.3}ADM1F SRT: single tank and two\sphinxhyphen {}phase anaerobic dynamic membrane bioreactor}{22}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Single tank anaerobic dynamic membrane bioreactor (AnDMBR)}{22}{subsection.5.3.1}%
+\contentsline {subsubsection}{Default Configuration}{25}{subsubsection*.3}%
+\contentsline {subsubsection}{Configuration 1}{25}{subsubsection*.4}%
+\contentsline {subsubsection}{Configuration 2}{26}{subsubsection*.5}%
+\contentsline {subsection}{\numberline {5.3.2}Two\sphinxhyphen {}Phase anaerobic dynamic membrane bioreactor}{26}{subsection.5.3.2}%
+\contentsline {subsubsection}{Config12}{27}{subsubsection*.6}%
+\contentsline {section}{\numberline {5.4}ADM1F\_SRT: Input/output sensitivity}{28}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}1. Influent/Output sensitivity}{28}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}2. Params/Output sensitivity}{33}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}ADM1F SRT: Synthetic Model\sphinxhyphen {}Data Calibration}{36}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}1. Sensitivity of the model output to parameter changes}{36}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}2. Model Calibration}{39}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}PH Control}{40}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}PH Control for One\sphinxhyphen {}Phase and Two\sphinxhyphen {}Phase Reactor}{41}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}ADM1F\_SRT: Ph control method}{43}{subsection.5.6.2}%
+\contentsline {subsubsection}{1. Relation between cation and PH}{43}{subsubsection*.7}%
+\contentsline {subsubsection}{2. PH: one\sphinxhyphen {}phase reactor}{46}{subsubsection*.8}%
+\contentsline {subsubsection}{3. PH: two\sphinxhyphen {}phase reactor}{48}{subsubsection*.9}%
+\contentsline {chapter}{\numberline {6}Join Us on Slack}{49}{chapter.6}%
