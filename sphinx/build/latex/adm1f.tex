@@ -194,7 +194,7 @@
 \title{Anaerobic Digester Model \#1 Fast (ADM1F)}
 \date{Jun 28, 2021}
 \release{0.1}
-\author{Elchin Jafarov, Satish Karra,\and Kuang Zhu,\and Wenjuan Zhang, Steven Skerlos, Kurt Solander, Lutgarde Raskin, and Meltem Urgun Demirtas}
+\author{Elchin Jafarov, Satish Karra, Kuang Zhu,\and Wenjuan Zhang, Steven Skerlos, Kurt Solander,\and Lutgarde Raskin, and Meltem Urgun Demirtas}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{ }
 \makeindex
@@ -6237,7 +6237,7 @@ Here we explore the cation/ph relationships using diffrerent configurations. Not
 \sphinxsetup{VerbatimBorderColor={named}{nbsphinx-code-border}}
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 \llap{\color{nbsphinxin}[2]:\,\hspace{\fboxrule}\hspace{\fboxsep}}\PYG{c+c1}{\PYGZsh{} navigate to simulations folder}
-\PYG{n}{os}\PYG{o}{.}\PYG{n}{chdir}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{../../simulations}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{os}\PYG{o}{.}\PYG{n}{chdir}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{../simulations}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
 \end{sphinxVerbatim}
 }
 
@@ -6275,7 +6275,7 @@ Q (m\(^3\)/d)
 \\
 \hline
 \sphinxAtStartPar
-Sherri’s (default)
+Default
 &
 \sphinxAtStartPar
 3400
@@ -6338,20 +6338,20 @@ where t\_resx = SRT \sphinxhyphen{} HRT
 }
 
 \sphinxAtStartPar
-\sphinxstylestrong{Relation b/t cation and Ph under Sherri’s config}
+\sphinxstylestrong{Relation b/t cation and Ph under Default config}
 
 {
 \sphinxsetup{VerbatimColor={named}{nbsphinx-code-bg}}
 \sphinxsetup{VerbatimBorderColor={named}{nbsphinx-code-border}}
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
-\llap{\color{nbsphinxin}[5]:\,\hspace{\fboxrule}\hspace{\fboxsep}}\PYG{c+c1}{\PYGZsh{} Relation b/t cation and Ph under Sherri\PYGZsq{}s config}
+\llap{\color{nbsphinxin}[5]:\,\hspace{\fboxrule}\hspace{\fboxsep}}\PYG{c+c1}{\PYGZsh{} Relation b/t cation and Ph under Default config}
 \PYG{n}{plt}\PYG{o}{.}\PYG{n}{figure}\PYG{p}{(}\PYG{n}{figsize}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{12}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{)}\PYG{p}{)}
 \PYG{n}{plt}\PYG{o}{.}\PYG{n}{scatter}\PYG{p}{(}\PYG{n}{cat\PYGZus{}test}\PYG{p}{,} \PYG{n}{ph\PYGZus{}test}\PYG{p}{)}
 \PYG{n}{plt}\PYG{o}{.}\PYG{n}{ylabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{PH}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,}\PYG{n}{fontsize}\PYG{o}{=}\PYG{l+m+mi}{15}\PYG{p}{)}
 \PYG{n}{plt}\PYG{o}{.}\PYG{n}{xticks}\PYG{p}{(}\PYG{n}{fontsize}\PYG{o}{=}\PYG{l+m+mi}{15}\PYG{p}{)}
 \PYG{n}{plt}\PYG{o}{.}\PYG{n}{yticks}\PYG{p}{(}\PYG{n}{fontsize}\PYG{o}{=}\PYG{l+m+mi}{15}\PYG{p}{)}
 \PYG{n}{plt}\PYG{o}{.}\PYG{n}{xlabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Cation (kmole/m3)}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,}\PYG{n}{fontsize}\PYG{o}{=}\PYG{l+m+mi}{15}\PYG{p}{)}
-\PYG{n}{plt}\PYG{o}{.}\PYG{n}{title}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Sherri}\PYG{l+s+s2}{\PYGZsq{}}\PYG{l+s+s2}{s configuration}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}\PYG{n}{fontsize}\PYG{o}{=}\PYG{l+m+mi}{20}\PYG{p}{)}\PYG{p}{;}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{title}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Default configuration}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{,}\PYG{n}{fontsize}\PYG{o}{=}\PYG{l+m+mi}{20}\PYG{p}{)}\PYG{p}{;}
 \end{sphinxVerbatim}
 }
 
@@ -6568,7 +6568,7 @@ Predicted PH is 7.05983 if using the original cation value 0
 }
 
 \sphinxAtStartPar
-\sphinxstylestrong{Target 1: target\_ph=7.2 with Sherri’s (default) configuration}
+\sphinxstylestrong{Target 1: target\_ph=7.2 with Default configuration}
 
 {
 \sphinxsetup{VerbatimColor={named}{nbsphinx-code-bg}}
