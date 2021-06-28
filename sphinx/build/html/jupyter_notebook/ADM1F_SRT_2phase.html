@@ -491,7 +491,7 @@ div.rendered_html tbody tr:hover {
 </div>
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
 <span></span><span class="c1"># navigate to simulations folder</span>
-<span class="n">os</span><span class="o">.</span><span class="n">chdir</span><span class="p">(</span><span class="s1">&#39;../../simulations&#39;</span><span class="p">)</span>
+<span class="n">os</span><span class="o">.</span><span class="n">chdir</span><span class="p">(</span><span class="s1">&#39;../simulations&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -567,10 +567,10 @@ $ADM1F_EXE -ts_type beuler -ts_adapt_type basic -ts_max_snes_failures -1 -steady
 indicator-563.out
 Reactor run, phase-one:
 $ADM1F_EXE -ts_type beuler -ts_adapt_type basic -ts_max_snes_failures -1 -steady -Vliq 300 -t_resx 4 -influent_file influent_cur.dat
-indicator-522.out
+indicator-521.out
 Reactor run, phase-one:
 $ADM1F_EXE -ts_type beuler -ts_adapt_type basic -ts_max_snes_failures -1 -steady -Vliq 300 -t_resx 5 -influent_file influent_cur.dat
-indicator-517.out
+indicator-516.out
 Reactor run, phase-one:
 $ADM1F_EXE -ts_type beuler -ts_adapt_type basic -ts_max_snes_failures -1 -steady -Vliq 300 -t_resx 6 -influent_file influent_cur.dat
 indicator-534.out
@@ -713,17 +713,17 @@ indicator-576.out
       <td>3305.000</td>
       <td>9742.9</td>
       <td>30.772000</td>
-      <td>1.129100e-09</td>
+      <td>1.085400e-09</td>
       <td>...</td>
       <td>61421.0</td>
       <td>0.048208</td>
       <td>1150.90</td>
       <td>7839.00</td>
-      <td>4.600500e-10</td>
+      <td>4.422100e-10</td>
       <td>102.210</td>
       <td>-155.0200</td>
       <td>0.304150</td>
-      <td>2.832600e-07</td>
+      <td>2.777100e-07</td>
       <td>0.5</td>
     </tr>
     <tr>
@@ -755,7 +755,7 @@ indicator-576.out
       <td>4</td>
       <td>30.634</td>
       <td>13.5750</td>
-      <td>457.19</td>
+      <td>457.20</td>
       <td>30.592</td>
       <td>39.989</td>
       <td>35.895</td>
@@ -766,7 +766,7 @@ indicator-576.out
       <td>18846.0</td>
       <td>3.157300</td>
       <td>963.70</td>
-      <td>457.19</td>
+      <td>457.20</td>
       <td>5.623900e+01</td>
       <td>214.510</td>
       <td>-304.2100</td>
@@ -779,7 +779,7 @@ indicator-576.out
       <td>5</td>
       <td>25.261</td>
       <td>11.2240</td>
-      <td>309.53</td>
+      <td>309.54</td>
       <td>24.543</td>
       <td>31.958</td>
       <td>27.254</td>
@@ -787,10 +787,10 @@ indicator-576.out
       <td>0.000424</td>
       <td>2.695900e+02</td>
       <td>...</td>
-      <td>21320.0</td>
-      <td>3.693300</td>
+      <td>21319.0</td>
+      <td>3.693200</td>
       <td>966.73</td>
-      <td>309.53</td>
+      <td>309.54</td>
       <td>5.648800e+01</td>
       <td>217.230</td>
       <td>-390.0200</td>
@@ -812,14 +812,14 @@ indicator-576.out
       <td>2.726300e+02</td>
       <td>...</td>
       <td>23721.0</td>
-      <td>4.147800</td>
+      <td>4.147900</td>
       <td>970.17</td>
       <td>236.08</td>
       <td>5.666900e+01</td>
       <td>219.140</td>
       <td>-475.6200</td>
       <td>0.108900</td>
-      <td>2.278900e+01</td>
+      <td>2.279000e+01</td>
       <td>0.5</td>
     </tr>
     <tr>
@@ -827,7 +827,7 @@ indicator-576.out
       <td>7</td>
       <td>18.960</td>
       <td>8.4513</td>
-      <td>192.13</td>
+      <td>192.14</td>
       <td>17.859</td>
       <td>23.153</td>
       <td>18.702</td>
@@ -838,7 +838,7 @@ indicator-576.out
       <td>26050.0</td>
       <td>4.540600</td>
       <td>973.69</td>
-      <td>192.13</td>
+      <td>192.14</td>
       <td>5.681200e+01</td>
       <td>220.630</td>
       <td>-560.8900</td>
@@ -935,7 +935,7 @@ indicator-576.out
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Sherri’s</p></td>
+<tr class="row-even"><td><p>Default</p></td>
 <td><p>3400</p></td>
 <td><p>0</p></td>
 <td><p>134</p></td>
@@ -973,7 +973,7 @@ indicator-576.out
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
 <span></span><span class="c1"># output using default configuration</span>
 <span class="n">ls_default</span> <span class="o">=</span> <span class="n">adm1fu</span><span class="o">.</span><span class="n">reactor1</span><span class="p">(</span><span class="o">**</span><span class="n">config_default</span><span class="p">)</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
-<span class="n">df_default</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">ls_default</span><span class="p">],</span><span class="n">columns</span><span class="o">=</span><span class="n">output_name</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Sherri</span><span class="se">\&#39;</span><span class="s1">s Configuration&#39;</span><span class="p">])</span>
+<span class="n">df_default</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">ls_default</span><span class="p">],</span><span class="n">columns</span><span class="o">=</span><span class="n">output_name</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Default Configuration&#39;</span><span class="p">])</span>
 <span class="n">df_default</span>
 </pre></div>
 </div>
@@ -1036,7 +1036,7 @@ indicator-034.out
   </thead>
   <tbody>
     <tr>
-      <th>Sherri's Configuration</th>
+      <th>Default Configuration</th>
       <td>7.17674</td>
       <td>3.21796</td>
       <td>54.9446</td>
@@ -1146,18 +1146,18 @@ indicator-051.out
       <td>3285.25</td>
       <td>9696.05</td>
       <td>28.5069</td>
-      <td>9.600970e-30</td>
+      <td>7.737870e-30</td>
       <td>147.214</td>
       <td>...</td>
       <td>60316.4</td>
       <td>0.048011</td>
       <td>1145.6</td>
       <td>7808.75</td>
-      <td>4.182560e-30</td>
+      <td>3.164870e-30</td>
       <td>104.203</td>
       <td>-104.737</td>
       <td>0.308161</td>
-      <td>1.722550e-17</td>
+      <td>1.202840e-17</td>
       <td>0.550162</td>
     </tr>
   </tbody>
@@ -1279,7 +1279,7 @@ indicator-025.out
 <div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
 <span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">Image</span>
 <span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;Schematics of the two-phase reactor&#39;</span><span class="p">)</span>
-<span class="n">Image</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s1">&#39;../docs/_static/images/2phase_reactor.png&#39;</span><span class="p">)</span>
+<span class="n">Image</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s1">&#39;../notebooks/2phase_reactor.png&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1317,7 +1317,7 @@ Schematics of the two-phase reactor
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Sherri’s</p></td>
+<tr class="row-even"><td><p>Default</p></td>
 <td><p>3400</p></td>
 <td><p>0</p></td>
 <td><p>134</p></td>
@@ -1453,18 +1453,18 @@ indicator-024.out
       <td>3285.25000</td>
       <td>9696.05</td>
       <td>28.506900</td>
-      <td>9.371060e-31</td>
+      <td>7.771710e-32</td>
       <td>147.214</td>
       <td>...</td>
       <td>60316.4</td>
       <td>0.048011</td>
       <td>1145.6</td>
       <td>7808.7500</td>
-      <td>4.082390e-31</td>
+      <td>3.068330e-32</td>
       <td>104.203</td>
       <td>-104.737</td>
       <td>0.308161</td>
-      <td>5.381270e-18</td>
+      <td>1.216580e-18</td>
       <td>0.550162</td>
     </tr>
     <tr>

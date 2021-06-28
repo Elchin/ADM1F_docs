@@ -194,7 +194,7 @@
 \title{Anaerobic Digester Model \#1 Fast (ADM1F)}
 \date{Jun 28, 2021}
 \release{0.1}
-\author{Elchin Jafarov, Satish Karra, Kuang Zhu,\and Wenjuan Zhang, Steven Skerlos, Kurt Solander,\and Lutgarde Raskin, and Meltem Urgun Demirtas}
+\author{Elchin Jafarov, Satish Karra,\and Kuang Zhu,\and Wenjuan Zhang, Steven Skerlos, Kurt Solander, Lutgarde Raskin, and Meltem Urgun Demirtas}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{ }
 \makeindex
@@ -4296,7 +4296,7 @@ Authors: Wenjuan Zhang, Elchin Jafarov, Kuang Zhu
 \sphinxsetup{VerbatimBorderColor={named}{nbsphinx-code-border}}
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 \llap{\color{nbsphinxin}[2]:\,\hspace{\fboxrule}\hspace{\fboxsep}}\PYG{c+c1}{\PYGZsh{} navigate to simulations folder}
-\PYG{n}{os}\PYG{o}{.}\PYG{n}{chdir}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{../../simulations}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{os}\PYG{o}{.}\PYG{n}{chdir}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{../simulations}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
 \end{sphinxVerbatim}
 }
 
@@ -4385,10 +4385,10 @@ Reactor run, phase-one:
 indicator-563.out
 Reactor run, phase-one:
 \$ADM1F\_EXE -ts\_type beuler -ts\_adapt\_type basic -ts\_max\_snes\_failures -1 -steady -Vliq 300 -t\_resx 4 -influent\_file influent\_cur.dat
-indicator-522.out
+indicator-521.out
 Reactor run, phase-one:
 \$ADM1F\_EXE -ts\_type beuler -ts\_adapt\_type basic -ts\_max\_snes\_failures -1 -steady -Vliq 300 -t\_resx 5 -influent\_file influent\_cur.dat
-indicator-517.out
+indicator-516.out
 Reactor run, phase-one:
 \$ADM1F\_EXE -ts\_type beuler -ts\_adapt\_type basic -ts\_max\_snes\_failures -1 -steady -Vliq 300 -t\_resx 6 -influent\_file influent\_cur.dat
 indicator-534.out
@@ -4440,33 +4440,33 @@ indicator-576.out
 1       1   123.060   49.1670  7751.20  2574.400  4202.900  3244.500  9600.7
 2       2    63.057   26.6380  7839.00  2610.000  4268.600  3305.000  9742.9
 3       3    39.313   17.3450   908.19    41.129    54.118    53.411  3339.7
-4       4    30.634   13.5750   457.19    30.592    39.989    35.895  3066.6
-5       5    25.261   11.2240   309.53    24.543    31.958    27.254  2856.4
+4       4    30.634   13.5750   457.20    30.592    39.989    35.895  3066.6
+5       5    25.261   11.2240   309.54    24.543    31.958    27.254  2856.4
 6       6    21.606    9.6181   236.08    20.615    26.775    22.111  2685.8
-7       7    18.960    8.4513   192.13    17.859    23.153    18.702  2543.7
+7       7    18.960    8.4513   192.14    17.859    23.153    18.702  2543.7
 8       8    16.955    7.5652   162.87    15.818    20.479    16.276  2423.2
 9       9    15.383    6.8691   141.96    14.244    18.422    14.462  2319.3
 
         Sh2          Sch4   {\ldots}     Alk       NH3      NH4     LCFA   \textbackslash{}
 0  25.643000 -8.963700e-82  {\ldots}  44957.0  0.053067  1074.00  7382.70
 1  30.352000  3.859800e-12  {\ldots}  59182.0  0.047701  1135.60  7751.20
-2  30.772000  1.129100e-09  {\ldots}  61421.0  0.048208  1150.90  7839.00
+2  30.772000  1.085400e-09  {\ldots}  61421.0  0.048208  1150.90  7839.00
 3   0.000662  2.574900e+02  {\ldots}  16289.0  2.513100   963.03   908.19
-4   0.000515  2.653300e+02  {\ldots}  18846.0  3.157300   963.70   457.19
-5   0.000424  2.695900e+02  {\ldots}  21320.0  3.693300   966.73   309.53
-6   0.000362  2.726300e+02  {\ldots}  23721.0  4.147800   970.17   236.08
-7   0.000317  2.750200e+02  {\ldots}  26050.0  4.540600   973.69   192.13
+4   0.000515  2.653300e+02  {\ldots}  18846.0  3.157300   963.70   457.20
+5   0.000424  2.695900e+02  {\ldots}  21319.0  3.693200   966.73   309.54
+6   0.000362  2.726300e+02  {\ldots}  23721.0  4.147900   970.17   236.08
+7   0.000317  2.750200e+02  {\ldots}  26050.0  4.540600   973.69   192.14
 8   0.000284  2.770000e+02  {\ldots}  28311.0  4.885500   977.21   162.87
 9   0.000257  2.786900e+02  {\ldots}  30505.0  5.192300   980.68   141.96
 
     percentch4    energych4   efficiency   VFA/ALK           ACN  sampleT
 0 -1.133000e-81       83.808      3.9774  0.351490 -3.203400e-72      0.5
 1  1.599000e-12      100.630    -76.4800  0.310840  1.255000e-08      0.5
-2  4.600500e-10      102.210   -155.0200  0.304150  2.832600e-07      0.5
+2  4.422100e-10      102.210   -155.0200  0.304150  2.777100e-07      0.5
 3  5.579800e+01      209.370   -218.4400  0.200760  9.097200e+00      0.5
 4  5.623900e+01      214.510   -304.2100  0.157850  1.324200e+01      0.5
 5  5.648800e+01      217.230   -390.0200  0.129290  1.778600e+01      0.5
-6  5.666900e+01      219.140   -475.6200  0.108900  2.278900e+01      0.5
+6  5.666900e+01      219.140   -475.6200  0.108900  2.279000e+01      0.5
 7  5.681200e+01      220.630   -560.8900  0.093693  2.825000e+01      0.5
 8  5.692900e+01      221.870   -645.8400  0.081984  3.416600e+01      0.5
 9  5.702800e+01      222.920   -730.4900  0.072728  4.053400e+01      0.5
@@ -4521,7 +4521,7 @@ Q (m\(^3\)/d)
 \\
 \hline
 \sphinxAtStartPar
-Sherri’s
+Default
 &
 \sphinxAtStartPar
 3400
@@ -4585,7 +4585,7 @@ where t\_resx = SRT \sphinxhyphen{} HRT
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 \llap{\color{nbsphinxin}[10]:\,\hspace{\fboxrule}\hspace{\fboxsep}}\PYG{c+c1}{\PYGZsh{} output using default configuration}
 \PYG{n}{ls\PYGZus{}default} \PYG{o}{=} \PYG{n}{adm1fu}\PYG{o}{.}\PYG{n}{reactor1}\PYG{p}{(}\PYG{o}{*}\PYG{o}{*}\PYG{n}{config\PYGZus{}default}\PYG{p}{)}\PYG{o}{.}\PYG{n}{tolist}\PYG{p}{(}\PYG{p}{)}
-\PYG{n}{df\PYGZus{}default} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{DataFrame}\PYG{p}{(}\PYG{n}{data} \PYG{o}{=} \PYG{p}{[}\PYG{n}{ls\PYGZus{}default}\PYG{p}{]}\PYG{p}{,}\PYG{n}{columns}\PYG{o}{=}\PYG{n}{output\PYGZus{}name}\PYG{p}{,} \PYG{n}{index}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Sherri}\PYG{l+s+se}{\PYGZbs{}\PYGZsq{}}\PYG{l+s+s1}{s Configuration}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{]}\PYG{p}{)}
+\PYG{n}{df\PYGZus{}default} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{DataFrame}\PYG{p}{(}\PYG{n}{data} \PYG{o}{=} \PYG{p}{[}\PYG{n}{ls\PYGZus{}default}\PYG{p}{]}\PYG{p}{,}\PYG{n}{columns}\PYG{o}{=}\PYG{n}{output\PYGZus{}name}\PYG{p}{,} \PYG{n}{index}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Default Configuration}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{]}\PYG{p}{)}
 \PYG{n}{df\PYGZus{}default}
 \end{sphinxVerbatim}
 }
@@ -4614,17 +4614,17 @@ indicator-034.out
 \sphinxsetup{VerbatimColor={named}{white}}
 \sphinxsetup{VerbatimBorderColor={named}{nbsphinx-code-border}}
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
-\llap{\color{nbsphinxout}[10]:\,\hspace{\fboxrule}\hspace{\fboxsep}}                           Ssu      Saa      Sfa      Sva      Sbu     Spro   \textbackslash{}
-Sherri's Configuration  7.17674  3.21796  54.9446  6.39778  8.23228  6.08339
+\llap{\color{nbsphinxout}[10]:\,\hspace{\fboxrule}\hspace{\fboxsep}}                          Ssu      Saa      Sfa      Sva      Sbu     Spro   \textbackslash{}
+Default Configuration  7.17674  3.21796  54.9446  6.39778  8.23228  6.08339
 
-                          Sac      Sh2     Sch4      Sic   {\ldots}     Alk   \textbackslash{}
-Sherri's Configuration  1963.6  0.00012  48.3303  639.764  {\ldots}  8438.52
+                         Sac      Sh2     Sch4      Sic   {\ldots}     Alk   \textbackslash{}
+Default Configuration  1963.6  0.00012  48.3303  639.764  {\ldots}  8438.52
 
-                           NH3      NH4     LCFA    percentch4    energych4   \textbackslash{}
-Sherri's Configuration  9.32395  1026.69  54.9446        56.905       65.228
+                          NH3      NH4     LCFA    percentch4    energych4   \textbackslash{}
+Default Configuration  9.32395  1026.69  54.9446        56.905       65.228
 
-                        efficiency   VFA/ALK      ACN  sampleT
-Sherri's Configuration     53.3712  0.220453  109.164  25.3731
+                       efficiency   VFA/ALK      ACN  sampleT
+Default Configuration     53.3712  0.220453  109.164  25.3731
 
 [1 rows x 67 columns]
 \end{sphinxVerbatim}
@@ -4672,13 +4672,13 @@ indicator-051.out
 Phase 1 Configuration  80.5616  33.4704  7808.75  2598.14  4246.87  3285.25
 
                           Sac      Sh2          Sch4      Sic   {\ldots}     Alk   \textbackslash{}
-Phase 1 Configuration  9696.05  28.5069  9.600970e-30  147.214  {\ldots}  60316.4
+Phase 1 Configuration  9696.05  28.5069  7.737870e-30  147.214  {\ldots}  60316.4
 
                            NH3     NH4     LCFA    percentch4    energych4   \textbackslash{}
-Phase 1 Configuration  0.048011  1145.6  7808.75  4.182560e-30      104.203
+Phase 1 Configuration  0.048011  1145.6  7808.75  3.164870e-30      104.203
 
                        efficiency   VFA/ALK           ACN   sampleT
-Phase 1 Configuration    -104.737  0.308161  1.722550e-17  0.550162
+Phase 1 Configuration    -104.737  0.308161  1.202840e-17  0.550162
 
 [1 rows x 67 columns]
 \end{sphinxVerbatim}
@@ -4753,7 +4753,7 @@ Usage example: reactor2(Q1=100, t\_resx1=30, t\_resx2=100, Vliq1=300, Vliq2=3000
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 \llap{\color{nbsphinxin}[13]:\,\hspace{\fboxrule}\hspace{\fboxsep}}\PYG{k+kn}{from} \PYG{n+nn}{IPython}\PYG{n+nn}{.}\PYG{n+nn}{display} \PYG{k+kn}{import} \PYG{n}{Image}
 \PYG{n+nb}{print} \PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{Schematics of the two\PYGZhy{}phase reactor}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
-\PYG{n}{Image}\PYG{p}{(}\PYG{n}{filename}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{../docs/\PYGZus{}static/images/2phase\PYGZus{}reactor.png}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{Image}\PYG{p}{(}\PYG{n}{filename}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{../notebooks/2phase\PYGZus{}reactor.png}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}
 \end{sphinxVerbatim}
 }
 
@@ -4807,7 +4807,7 @@ Q (m\(^3\)/d)
 \\
 \hline
 \sphinxAtStartPar
-Sherri’s
+Default
 &
 \sphinxAtStartPar
 3400
@@ -4934,15 +4934,15 @@ Phase1  80.561600  33.470400  7808.7500  2598.14000  4246.87000  3285.25000
 Phase2   0.355681   0.132504    19.2757     2.37729     3.05196     2.19399
 
            Sac        Sh2          Sch4      Sic   {\ldots}     Alk        NH3   \textbackslash{}
-Phase1  9696.05  28.506900  9.371060e-31  147.214  {\ldots}  60316.4   0.048011
+Phase1  9696.05  28.506900  7.771710e-32  147.214  {\ldots}  60316.4   0.048011
 Phase2  1248.96   0.000046  7.114040e+01  867.356  {\ldots}  17101.8  15.289200
 
           NH4       LCFA    percentch4    energych4   efficiency   VFA/ALK  \textbackslash{}
-Phase1  1145.6  7808.7500  4.082390e-31      104.203    -104.737  0.308161
+Phase1  1145.6  7808.7500  3.068330e-32      104.203    -104.737  0.308161
 Phase2  1139.4    19.2757  6.198330e+01      192.277    -590.307  0.068884
 
                  ACN   sampleT
-Phase1  5.381270e-18  0.550162
+Phase1  1.216580e-18  0.550162
 Phase2 -2.807000e+01  6.241160
 
 [2 rows x 67 columns]

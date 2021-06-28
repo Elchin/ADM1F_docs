@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.6)  28 JUN 2021 11:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.6)  28 JUN 2021 15:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -729,17 +729,22 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 204
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+Overfull \hbox (347.87892pt too wide) in paragraph at lines 204--204
+ []
+ []
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+[1
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
 
 
 ] (./adm1f.toc)
 \tf@toc=\write6
 \openout6 = `adm1f.toc'.
 
-
-[1
+ [1
 
 ] [2
 
@@ -747,7 +752,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <digester_m.png, id=116, 585.8688pt x 330.033pt>
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
 22.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 File: digester_m.png Graphic file (type png)
@@ -979,13 +985,7 @@ File: jupyter_notebook_ADM1F_SRT_2phase_11_0.png Graphic file (type png)
 Package pdftex.def Info: jupyter_notebook_ADM1F_SRT_2phase_11_0.png  used on in
 put line 4497.
 (pdftex.def)             Requested size: 452.97073pt x 59.81921pt.
- [24 <./jupyter_notebook_ADM1F_SRT_2phase_11_0.png>]
-
-LaTeX Font Warning: Font shape `TS1/cmtt/bx/n' undefined
-(Font)              using `TS1/cmtt/m/n' instead
-(Font)              for symbol `textquotesingle' on input line 4588.
-
-[25]
+ [24 <./jupyter_notebook_ADM1F_SRT_2phase_11_0.png>] [25]
 <jupyter_notebook_ADM1F_SRT_2phase_21_1.png, id=295, 595.5048pt x 305.4612pt>
 File: jupyter_notebook_ADM1F_SRT_2phase_21_1.png Graphic file (type png)
 <use jupyter_notebook_ADM1F_SRT_2phase_21_1.png>
@@ -1126,17 +1126,14 @@ Chapter 6.
 (./adm1f.ind) [49
 
 ] (./adm1f.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `adm1f.out' has not changed.
 (rerunfilecheck)             Checksum: 20826704813D9EDFA678AAA4620E50AB;2799.
  ) 
 Here is how much of TeX's memory you used:
- 13724 strings out of 478994
- 202948 string characters out of 5858185
- 744627 words of memory out of 5000000
- 30697 multiletter control sequences out of 15000+600000
+ 13722 strings out of 478994
+ 202920 string characters out of 5858185
+ 744560 words of memory out of 5000000
+ 30695 multiletter control sequences out of 15000+600000
  432640 words of font info for 91 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  83i,19n,88p,1521b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1170,7 +1167,7 @@ e1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
 ublic/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
 lic/cm-super/sftt0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
 c/cm-super/sftt1000.pfb>
-Output written on adm1f.pdf (53 pages, 1445358 bytes).
+Output written on adm1f.pdf (53 pages, 1445285 bytes).
 PDF statistics:
  573 PDF objects out of 1000 (max. 8388607)
  446 compressed objects within 5 object streams
