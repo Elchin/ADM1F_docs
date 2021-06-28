@@ -194,7 +194,7 @@
 \title{Anaerobic Digester Model \#1 Fast (ADM1F)}
 \date{Jun 28, 2021}
 \release{0.1}
-\author{Elchin Jafarov, Satish Karra,\and Kuang Zhu,\and Wenjuan Zhang, Steven Skerlos, Kurt Solander, Lutgarde Raskin, and Meltem Urgun Demirtas}
+\author{Elchin Jafarov, Satish Karra, Kuang Zhu,\and Wenjuan Zhang, Steven Skerlos, Kurt Solander,\and Lutgarde Raskin, and Meltem Urgun Demirtas}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{ }
 \makeindex
@@ -225,6 +225,19 @@ Anaerobic digestion (AD) process converts organic wastes into biogas. Biogas can
 \chapter{Compile ADM1F}
 \label{\detokenize{compile:compile-adm1f}}\label{\detokenize{compile::doc}}\begin{enumerate}
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\setcounter{enumi}{-1}
+\item {} 
+\sphinxAtStartPar
+Download or clone the ADM1F model to your local computer:
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYGZdl{} git clone https://github.com/wwtmodels/Anaerobic\PYGZhy{}Digestion\PYGZhy{}Models.git
+\end{sphinxVerbatim}
+
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYGZdl{} cd ADM1F
+\end{sphinxVerbatim}
+
 \item {} 
 \sphinxAtStartPar
 ADM1F uses external numerical library package PETSc. First download PETSc:

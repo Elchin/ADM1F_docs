@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.6)  28 JUN 2021 10:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.6)  28 JUN 2021 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -729,22 +729,17 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 204
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (347.87892pt too wide) in paragraph at lines 204--204
- []
- []
+) [1
 
-[1
-
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 
 ] (./adm1f.toc)
 \tf@toc=\write6
 \openout6 = `adm1f.toc'.
 
- [1
+
+[1
 
 ] [2
 
@@ -752,8 +747,7 @@ Overfull \hbox (347.87892pt too wide) in paragraph at lines 204--204
 <digester_m.png, id=116, 585.8688pt x 330.033pt>
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
 22.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 File: digester_m.png Graphic file (type png)
@@ -777,32 +771,27 @@ Chapter 3.
 ]
 Chapter 4.
 [9]
-Overfull \hbox (2.23386pt too wide) in paragraph at lines 1269--1271
+Overfull \hbox (2.23386pt too wide) in paragraph at lines 1282--1284
 []|\T1/cmr/m/n/10 X_c_biom_in| 
  []
 
 
-Overfull \hbox (7.51035pt too wide) in paragraph at lines 1282--1284
+Overfull \hbox (7.51035pt too wide) in paragraph at lines 1295--1297
 []|\T1/cmr/m/n/10 X_ch_biom_in| 
  []
 
 
-Overfull \hbox (7.2604pt too wide) in paragraph at lines 1295--1297
+Overfull \hbox (7.2604pt too wide) in paragraph at lines 1308--1310
 []|\T1/cmr/m/n/10 X_pr_biom_in| 
  []
 
 
-Overfull \hbox (3.3447pt too wide) in paragraph at lines 1308--1310
+Overfull \hbox (3.3447pt too wide) in paragraph at lines 1321--1323
 []|\T1/cmr/m/n/10 X_li_biom_in| 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 1882--1884
-[]|\T1/cmr/m/n/10 kg-COD_X/kg
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1973--1975
+Underfull \hbox (badness 10000) in paragraph at lines 1895--1897
 []|\T1/cmr/m/n/10 kg-COD_X/kg
  []
 
@@ -822,7 +811,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2012--2014
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2038--2040
+Underfull \hbox (badness 10000) in paragraph at lines 2025--2027
 []|\T1/cmr/m/n/10 kg-COD_X/kg
  []
 
@@ -832,112 +821,117 @@ Underfull \hbox (badness 10000) in paragraph at lines 2051--2053
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2129--2131
+Underfull \hbox (badness 10000) in paragraph at lines 2064--2066
+[]|\T1/cmr/m/n/10 kg-COD_X/kg
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2142--2144
 []|\T1/cmr/m/n/10 kg-
  []
 
 
-Underfull \hbox (badness 6348) in paragraph at lines 2132--2135
+Underfull \hbox (badness 6348) in paragraph at lines 2145--2148
 []|\T1/cmr/m/n/10 Monod max-i-mum spe-cific up-take rate for
  []
 
 
-Overfull \hbox (14.86966pt too wide) in paragraph at lines 2152--2154
+Overfull \hbox (14.86966pt too wide) in paragraph at lines 2165--2167
 []|\T1/cmr/m/n/10 pH_UL_acidacet| 
  []
 
 
-Overfull \hbox (13.61996pt too wide) in paragraph at lines 2165--2167
+Overfull \hbox (13.61996pt too wide) in paragraph at lines 2178--2180
 []|\T1/cmr/m/n/10 pH_LL_acidacet| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2181--2183
+Underfull \hbox (badness 10000) in paragraph at lines 2194--2196
 []|\T1/cmr/m/n/10 kg-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2207--2209
+Underfull \hbox (badness 10000) in paragraph at lines 2220--2222
 []|\T1/cmr/m/n/10 kg-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2246--2248
+Underfull \hbox (badness 10000) in paragraph at lines 2259--2261
 []|\T1/cmr/m/n/10 kg-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2285--2287
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2300
 []|\T1/cmr/m/n/10 kg-
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 2324--2326
+Underfull \hbox (badness 10000) in paragraph at lines 2337--2339
 []|\T1/cmr/m/n/10 kg-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2389--2391
+Underfull \hbox (badness 10000) in paragraph at lines 2402--2404
 []|\T1/cmr/m/n/10 kg-
  []
 
 
-Overfull \hbox (7.28818pt too wide) in paragraph at lines 2581--2583
+Overfull \hbox (7.28818pt too wide) in paragraph at lines 2594--2596
 []|\T1/cmr/m/n/10 pK_a_va_base| 
  []
 
 
-Overfull \hbox (8.67673pt too wide) in paragraph at lines 2594--2596
+Overfull \hbox (8.67673pt too wide) in paragraph at lines 2607--2609
 []|\T1/cmr/m/n/10 pK_a_bu_base| 
  []
 
 
-Overfull \hbox (12.03702pt too wide) in paragraph at lines 2607--2609
+Overfull \hbox (12.03702pt too wide) in paragraph at lines 2620--2622
 []|\T1/cmr/m/n/10 pK_a_pro_base| 
  []
 
 
-Overfull \hbox (7.01047pt too wide) in paragraph at lines 2620--2622
+Overfull \hbox (7.01047pt too wide) in paragraph at lines 2633--2635
 []|\T1/cmr/m/n/10 pK_a_ac_base| 
  []
 
 
-Overfull \hbox (12.00925pt too wide) in paragraph at lines 2633--2635
+Overfull \hbox (12.00925pt too wide) in paragraph at lines 2646--2648
 []|\T1/cmr/m/n/10 pK_a_co2_base| 
  []
 
 
-Overfull \hbox (8.67673pt too wide) in paragraph at lines 2646--2648
+Overfull \hbox (8.67673pt too wide) in paragraph at lines 2659--2661
 []|\T1/cmr/m/n/10 pK_a_IN_base| 
  []
 
 
-Overfull \hbox (17.56345pt too wide) in paragraph at lines 2659--2661
+Overfull \hbox (17.56345pt too wide) in paragraph at lines 2672--2674
 []|\T1/cmr/m/n/10 pK_a_hco3_base| 
  []
 
 
-Overfull \hbox (10.06528pt too wide) in paragraph at lines 2763--2765
+Overfull \hbox (10.06528pt too wide) in paragraph at lines 2776--2778
 []|\T1/cmr/m/n/10 K_H_h2o_base| 
  []
 
 
-Overfull \hbox (8.95444pt too wide) in paragraph at lines 2776--2778
+Overfull \hbox (8.95444pt too wide) in paragraph at lines 2789--2791
 []|\T1/cmr/m/n/10 K_H_co2_base| 
  []
 
 
-Overfull \hbox (9.23215pt too wide) in paragraph at lines 2789--2791
+Overfull \hbox (9.23215pt too wide) in paragraph at lines 2802--2804
 []|\T1/cmr/m/n/10 K_H_ch4_base| 
  []
 
 
-Overfull \hbox (5.0665pt too wide) in paragraph at lines 2802--2804
+Overfull \hbox (5.0665pt too wide) in paragraph at lines 2815--2817
 []|\T1/cmr/m/n/10 K_H_h2_base| 
  []
 
 [12] [13]
-Underfull \hbox (badness 7740) in paragraph at lines 3608--3610
+Underfull \hbox (badness 7740) in paragraph at lines 3621--3623
 []|\T1/cmr/m/n/10 kg ac-etate/ kg ac-
  []
 
@@ -946,120 +940,120 @@ Underfull \hbox (badness 7740) in paragraph at lines 3608--3610
 ]
 Chapter 5.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 3766.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 3779.
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-3782.
+3795.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [17]
-<jupyter_notebook_Steady_State_Run_14_0.png, id=242, 412.54124pt x 284.06125pt>
+<jupyter_notebook_Steady_State_Run_14_0.png, id=243, 412.54124pt x 284.06125pt>
 
 File: jupyter_notebook_Steady_State_Run_14_0.png Graphic file (type png)
 <use jupyter_notebook_Steady_State_Run_14_0.png>
 Package pdftex.def Info: jupyter_notebook_Steady_State_Run_14_0.png  used on in
-put line 3947.
+put line 3960.
 (pdftex.def)             Requested size: 309.40517pt x 213.05406pt.
 
-Underfull \vbox (badness 10000) detected at line 3949
+Underfull \vbox (badness 10000) detected at line 3962
  []
 
 [18] [19 <./jupyter_notebook_Steady_State_Run_14_0.png>]
-<jupyter_notebook_execution_time_9_1.png, id=254, 407.5225pt x 271.0125pt>
+<jupyter_notebook_execution_time_9_1.png, id=255, 407.5225pt x 271.0125pt>
 File: jupyter_notebook_execution_time_9_1.png Graphic file (type png)
 <use jupyter_notebook_execution_time_9_1.png>
 Package pdftex.def Info: jupyter_notebook_execution_time_9_1.png  used on input
- line 4132.
+ line 4145.
 (pdftex.def)             Requested size: 305.65355pt x 203.263pt.
  [20 <./jupyter_notebook_execution_time_9_1.png>]
-<jupyter_notebook_execution_time_14_1.png, id=260, 398.48875pt x 271.0125pt>
+<jupyter_notebook_execution_time_14_1.png, id=261, 398.48875pt x 271.0125pt>
 File: jupyter_notebook_execution_time_14_1.png Graphic file (type png)
 <use jupyter_notebook_execution_time_14_1.png>
 Package pdftex.def Info: jupyter_notebook_execution_time_14_1.png  used on inpu
-t line 4232.
+t line 4245.
 (pdftex.def)             Requested size: 298.87799pt x 203.263pt.
  [21 <./jupyter_notebook_execution_time_14_1.png>]
 [22] [23]
-<jupyter_notebook_ADM1F_SRT_2phase_11_0.png, id=282, 1208.515pt x 159.59625pt>
+<jupyter_notebook_ADM1F_SRT_2phase_11_0.png, id=283, 1208.515pt x 159.59625pt>
 File: jupyter_notebook_ADM1F_SRT_2phase_11_0.png Graphic file (type png)
 <use jupyter_notebook_ADM1F_SRT_2phase_11_0.png>
 Package pdftex.def Info: jupyter_notebook_ADM1F_SRT_2phase_11_0.png  used on in
-put line 4484.
+put line 4497.
 (pdftex.def)             Requested size: 452.97073pt x 59.81921pt.
  [24 <./jupyter_notebook_ADM1F_SRT_2phase_11_0.png>]
 
 LaTeX Font Warning: Font shape `TS1/cmtt/bx/n' undefined
 (Font)              using `TS1/cmtt/m/n' instead
-(Font)              for symbol `textquotesingle' on input line 4575.
+(Font)              for symbol `textquotesingle' on input line 4588.
 
 [25]
-<jupyter_notebook_ADM1F_SRT_2phase_21_1.png, id=294, 595.5048pt x 305.4612pt>
+<jupyter_notebook_ADM1F_SRT_2phase_21_1.png, id=295, 595.5048pt x 305.4612pt>
 File: jupyter_notebook_ADM1F_SRT_2phase_21_1.png Graphic file (type png)
 <use jupyter_notebook_ADM1F_SRT_2phase_21_1.png>
 Package pdftex.def Info: jupyter_notebook_ADM1F_SRT_2phase_21_1.png  used on in
-put line 4767.
+put line 4780.
 (pdftex.def)             Requested size: 452.97pt x 232.34868pt.
 
-Underfull \vbox (badness 10000) detected at line 4769
+Underfull \vbox (badness 10000) detected at line 4782
  []
 
 [26] [27 <./jupyter_notebook_ADM1F_SRT_2phase_21_1.png>] [28] [29] [30]
-<jupyter_notebook_io_sensitivity_analysis_13_1.png, id=322, 1159.33125pt x 393.
+<jupyter_notebook_io_sensitivity_analysis_13_1.png, id=323, 1159.33125pt x 393.
 47pt>
 File: jupyter_notebook_io_sensitivity_analysis_13_1.png Graphic file (type png)
 
 <use jupyter_notebook_io_sensitivity_analysis_13_1.png>
 Package pdftex.def Info: jupyter_notebook_io_sensitivity_analysis_13_1.png  use
-d on input line 5232.
+d on input line 5245.
 (pdftex.def)             Requested size: 452.9688pt x 153.73485pt.
-<jupyter_notebook_io_sensitivity_analysis_16_1.png, id=323, 626.34pt x 280.0462
+<jupyter_notebook_io_sensitivity_analysis_16_1.png, id=324, 626.34pt x 280.0462
 5pt>
 File: jupyter_notebook_io_sensitivity_analysis_16_1.png Graphic file (type png)
 
 <use jupyter_notebook_io_sensitivity_analysis_16_1.png>
 Package pdftex.def Info: jupyter_notebook_io_sensitivity_analysis_16_1.png  use
-d on input line 5280.
+d on input line 5293.
 (pdftex.def)             Requested size: 452.981pt x 202.53476pt.
-<jupyter_notebook_io_sensitivity_analysis_17_0.png, id=324, 403.5075pt x 272.01
+<jupyter_notebook_io_sensitivity_analysis_17_0.png, id=325, 403.5075pt x 272.01
 625pt>
 File: jupyter_notebook_io_sensitivity_analysis_17_0.png Graphic file (type png)
 
 <use jupyter_notebook_io_sensitivity_analysis_17_0.png>
 Package pdftex.def Info: jupyter_notebook_io_sensitivity_analysis_17_0.png  use
-d on input line 5301.
+d on input line 5314.
 (pdftex.def)             Requested size: 302.62988pt x 204.01997pt.
 
-Underfull \vbox (badness 10000) detected at line 5303
+Underfull \vbox (badness 10000) detected at line 5316
  []
 
 [31 <./jupyter_notebook_io_sensitivity_analysis_13_1.png> <./jupyter_notebook_i
 o_sensitivity_analysis_16_1.png>]
-<jupyter_notebook_io_sensitivity_analysis_18_0.png, id=331, 618.31pt x 604.2575
+<jupyter_notebook_io_sensitivity_analysis_18_0.png, id=332, 618.31pt x 604.2575
 pt>
 File: jupyter_notebook_io_sensitivity_analysis_18_0.png Graphic file (type png)
 
 <use jupyter_notebook_io_sensitivity_analysis_18_0.png>
 Package pdftex.def Info: jupyter_notebook_io_sensitivity_analysis_18_0.png  use
-d on input line 5321.
+d on input line 5334.
 (pdftex.def)             Requested size: 452.9853pt x 442.69019pt.
 
-Underfull \vbox (badness 10000) detected at line 5323
+Underfull \vbox (badness 10000) detected at line 5336
  []
 
 [32 <./jupyter_notebook_io_sensitivity_analysis_17_0.png>] [33 <./jupyter_noteb
 ook_io_sensitivity_analysis_18_0.png>] [34]
-<jupyter_notebook_io_sensitivity_analysis_27_1.png, id=348, 1384.17125pt x 939.
+<jupyter_notebook_io_sensitivity_analysis_27_1.png, id=349, 1384.17125pt x 939.
 51pt>
 File: jupyter_notebook_io_sensitivity_analysis_27_1.png Graphic file (type png)
 
 <use jupyter_notebook_io_sensitivity_analysis_27_1.png>
 Package pdftex.def Info: jupyter_notebook_io_sensitivity_analysis_27_1.png  use
-d on input line 5528.
+d on input line 5541.
 (pdftex.def)             Requested size: 452.95508pt x 307.44449pt.
  [35 <./jupyter_notebook_io_sensitivity_analysis_27_1.png>] [36] [37] [38] [39]
 
 
 LaTeX Warning: File `{jupyter_notebook_parameter-calibration_24_0}.svg' not fou
-nd on input line 6102.
+nd on input line 6115.
 
 
 ! LaTeX Error: Unknown graphics extension: .svg.
@@ -1068,12 +1062,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6102 ...otebook_parameter-calibration_24_0}.svg}
+l.6115 ...otebook_parameter-calibration_24_0}.svg}
                                                   
 ? 
 
 LaTeX Warning: File `{jupyter_notebook_parameter-calibration_24_0}.svg' not fou
-nd on input line 6102.
+nd on input line 6115.
 
 
 ! LaTeX Error: Unknown graphics extension: .svg.
@@ -1082,49 +1076,49 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6102 ...otebook_parameter-calibration_24_0}.svg}
+l.6115 ...otebook_parameter-calibration_24_0}.svg}
                                                   
 ? 
 [40]
-<pdftonormal.png, id=391, 505.89pt x 180.675pt>
+<pdftonormal.png, id=392, 505.89pt x 180.675pt>
 File: pdftonormal.png Graphic file (type png)
 <use pdftonormal.png>
-Package pdftex.def Info: pdftonormal.png  used on input line 6159.
+Package pdftex.def Info: pdftonormal.png  used on input line 6172.
 (pdftex.def)             Requested size: 452.97328pt x 161.78719pt.
-<phcontrol.png, id=393, 561.09625pt x 417.56pt>
+<phcontrol.png, id=394, 561.09625pt x 417.56pt>
 File: phcontrol.png Graphic file (type png)
 <use phcontrol.png>
-Package pdftex.def Info: phcontrol.png  used on input line 6181.
+Package pdftex.def Info: phcontrol.png  used on input line 6194.
 (pdftex.def)             Requested size: 420.81259pt x 313.18832pt.
  [41 <./pdftonormal.png>]
-<flow1.png, id=401, 723.6636pt x 542.025pt>
+<flow1.png, id=402, 723.6636pt x 542.025pt>
 File: flow1.png Graphic file (type png)
 <use flow1.png>
-Package pdftex.def Info: flow1.png  used on input line 6186.
+Package pdftex.def Info: flow1.png  used on input line 6199.
 (pdftex.def)             Requested size: 452.96222pt x 339.28583pt.
  [42 <./phcontrol.png> <./flow1.png>] [43]
-<jupyter_notebook_ph-control_8_0.png, id=415, 735.74875pt x 349.305pt>
+<jupyter_notebook_ph-control_8_0.png, id=416, 735.74875pt x 349.305pt>
 File: jupyter_notebook_ph-control_8_0.png Graphic file (type png)
 <use jupyter_notebook_ph-control_8_0.png>
 Package pdftex.def Info: jupyter_notebook_ph-control_8_0.png  used on input lin
-e 6352.
+e 6365.
 (pdftex.def)             Requested size: 452.98238pt x 215.05847pt.
-<jupyter_notebook_ph-control_11_0.png, id=416, 735.74875pt x 349.305pt>
+<jupyter_notebook_ph-control_11_0.png, id=417, 735.74875pt x 349.305pt>
 File: jupyter_notebook_ph-control_11_0.png Graphic file (type png)
 <use jupyter_notebook_ph-control_11_0.png>
 Package pdftex.def Info: jupyter_notebook_ph-control_11_0.png  used on input li
-ne 6393.
+ne 6406.
 (pdftex.def)             Requested size: 452.98238pt x 215.05847pt.
 
-Underfull \vbox (badness 10000) detected at line 6395
+Underfull \vbox (badness 10000) detected at line 6408
  []
 
 [44 <./jupyter_notebook_ph-control_8_0.png>]
-<jupyter_notebook_ph-control_14_0.png, id=422, 735.74875pt x 349.305pt>
+<jupyter_notebook_ph-control_14_0.png, id=423, 735.74875pt x 349.305pt>
 File: jupyter_notebook_ph-control_14_0.png Graphic file (type png)
 <use jupyter_notebook_ph-control_14_0.png>
 Package pdftex.def Info: jupyter_notebook_ph-control_14_0.png  used on input li
-ne 6434.
+ne 6447.
 (pdftex.def)             Requested size: 452.98238pt x 215.05847pt.
  [45 <./jupyter_notebook_ph-control_11_0.png> <./jupyter_notebook_ph-control_14
 _0.png>] [46] [47] [48]
@@ -1139,8 +1133,8 @@ Package rerunfilecheck Info: File `adm1f.out' has not changed.
 (rerunfilecheck)             Checksum: 20826704813D9EDFA678AAA4620E50AB;2799.
  ) 
 Here is how much of TeX's memory you used:
- 13723 strings out of 478994
- 202941 string characters out of 5858185
+ 13724 strings out of 478994
+ 202948 string characters out of 5858185
  744627 words of memory out of 5000000
  30697 multiletter control sequences out of 15000+600000
  432640 words of font info for 91 fonts, out of 8000000 for 9000
@@ -1176,10 +1170,10 @@ e1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
 ublic/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
 lic/cm-super/sftt0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
 c/cm-super/sftt1000.pfb>
-Output written on adm1f.pdf (53 pages, 1445078 bytes).
+Output written on adm1f.pdf (53 pages, 1445358 bytes).
 PDF statistics:
- 572 PDF objects out of 1000 (max. 8388607)
- 445 compressed objects within 5 object streams
- 117 named destinations out of 1000 (max. 500000)
+ 573 PDF objects out of 1000 (max. 8388607)
+ 446 compressed objects within 5 object streams
+ 118 named destinations out of 1000 (max. 500000)
  234 words of extra memory for PDF output out of 10000 (max. 10000000)
 
