@@ -20,8 +20,8 @@ sys.path.insert(0, path2notebook)
 # -- Project information -----------------------------------------------------
 master_doc = 'index'
 project = 'ADM1F'
-copyright = '2020, The ADM1F Development Team (Elchin Jafarov, Satish Karra, Kuang Zhu, Wenjuan Zhang, and Kurt Solander)'
-author = 'Elchin Jafarov, Satish Karra,  Kuang Zhu,  Wenjuan Zhang,  and Kurt Solander'
+copyright = '2020, The ADM1F Development Team (Elchin Jafarov, Satish Karra, Kuang Zhu, Wenjuan Zhang, Steven Skerlos, Kurt Solander, Lutgarde Raskin, and Meltem Urgun Demirtas)'
+author = 'Elchin Jafarov, Satish Karra,  Kuang Zhu,  Wenjuan Zhang, Steven Skerlos, Kurt Solander, Lutgarde Raskin, and Meltem Urgun Demirtas'
 
 version = 'v0.1'
 # The full version, including alpha/beta/rc tags

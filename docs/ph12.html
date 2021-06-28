@@ -40,7 +40,9 @@
 
     
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="ADM1F_SRT: Ph control method" href="jupyter_notebook/ph-control.html" />
+    <link rel="prev" title="PH Control" href="phcontrol.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -90,12 +92,24 @@
             
             
               <p class="caption"><span class="caption-text">User Guide:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="compile.html">Compile ADM1F</a></li>
 <li class="toctree-l1"><a class="reference internal" href="compile.html#running-adm1f">Running ADM1F</a></li>
 <li class="toctree-l1"><a class="reference internal" href="compile.html#adm1f-srt">ADM1F SRT</a></li>
 <li class="toctree-l1"><a class="reference internal" href="inouts.html">Inputs/Outputs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="examples.html">Examples</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="jupyter_notebook/Steady_State_Run.html">ADM1F: Steady State</a></li>
+<li class="toctree-l2"><a class="reference internal" href="jupyter_notebook/execution_time.html">ADM1F: Execution time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="jupyter_notebook/ADM1F_SRT_2phase.html">ADM1F SRT: single tank and two-phase anaerobic dynamic membrane bioreactor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="jupyter_notebook/io_sensitivity_analysis.html">ADM1F_SRT: Input/output sensitivity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="jupyter_notebook/parameter-calibration.html">ADM1F SRT: Synthetic Model-Data Calibration</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="phcontrol.html">PH Control</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">PH Control for One-Phase and Two-Phase Reactor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="jupyter_notebook/ph-control.html">ADM1F_SRT: Ph control method</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="join.html">Join Us on Slack</a></li>
 </ul>
 
@@ -144,6 +158,10 @@
   <ul class="wy-breadcrumbs">
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="examples.html">Examples</a> &raquo;</li>
+        
+          <li><a href="phcontrol.html">PH Control</a> &raquo;</li>
         
       <li>PH Control for One-Phase and Two-Phase Reactor</li>
     
@@ -198,7 +216,7 @@ Implemented in this study ph-control method (see <code class="docutils literal n
 <p>The idea can also be explained in the following flow chart</p>
 <img alt="_images/flow1.png" src="_images/flow1.png" />
 <p>Similar idea can then be applied to the two-phase reactor. We can configure the two-phase reactor where volume, flow rate, t_resx (t_resx = SRT-HRT) of each phase can be set manually to simulate the real reactor. The implementations in both phase 1 and 2 are similar to the above implementation in the one-phase reactor, the only difference is that the output of phase 1 is now the input of phase 2.</p>
-<p>In the <span class="xref std std-doc">Ipython notebook</span>, <code class="docutils literal notranslate"><span class="pre">reactor_cat(target_1,</span> <span class="pre">target_2,</span> <span class="pre">**kwargs)</span></code> function is used to calculate the corresponding cation for each phase in order to control the PH level for each phase. Note that the target PH for phase 1 and 2 (target_1, target_2) can be set different when using this function under the corresponding configurations.</p>
+<p>In the <a class="reference internal" href="jupyter_notebook/ph-control.html"><span class="doc">Ipython notebook</span></a>, <code class="docutils literal notranslate"><span class="pre">reactor2_cat(target_1,</span> <span class="pre">target_2,</span> <span class="pre">**kwargs)</span></code> function is used to calculate the corresponding cation for each phase in order to control the PH level for each phase. Note that the target PH for phase 1 and 2 (target_1, target_2) can be set different when using this function under the corresponding configurations.</p>
 </div>
 
 
@@ -206,12 +224,16 @@ Implemented in this study ph-control method (see <code class="docutils literal n
            
           </div>
           <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="jupyter_notebook/ph-control.html" class="btn btn-neutral float-right" title="ADM1F_SRT: Ph control method" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="phcontrol.html" class="btn btn-neutral float-left" title="PH Control" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        &#169; Copyright 2020, The ADM1F Development Team (Elchin Jafarov, Satish Karra, Kuang Zhu, Wenjuan Zhang, and Kurt Solander).
+        &#169; Copyright 2020, The ADM1F Development Team (Elchin Jafarov, Satish Karra, Kuang Zhu, Wenjuan Zhang, Steven Skerlos, Kurt Solander, Lutgarde Raskin, and Meltem Urgun Demirtas).
 
     </p>
   </div>

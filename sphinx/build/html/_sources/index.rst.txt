@@ -5,7 +5,7 @@
    contain the root `toctree` directive.
 
 ****************************************
-Anaerobic Digester Model #1 Fast (ADM1F)
+Anaerobic Digestion Model #1 Fast (ADM1F)
 ****************************************
 
 Anaerobic digestion (AD) process converts organic wastes into biogas. Biogas can generate heat and electricity through a cascade of biochemical reactions and has been adapted by various facilities and industries to treat and recover energy from high-strength liquid or solid waste streams. Anaerobic Digestion Model 1 (ADM1) is a mathematical model that describes the stoichiometry and kinetics of the essential biochemical reactions in AD. This repository includes C++ version of the Matlab/Simulink [#rosen06]_ version of the ADM1 model and the solid retention time (SRT) version [#zhu]_. The C++ version of the model is computationally more efficient than its Matlab/Simulink predecessor. We called this version of the model Anaerobic Digestion Model 1 Fast (ADM1F). 

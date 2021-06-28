@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.6)  22 JUN 2021 15:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.6)  28 JUN 2021 10:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -729,25 +729,31 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 204
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+Overfull \hbox (347.87892pt too wide) in paragraph at lines 204--204
+ []
+ []
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+[1
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
 
 
 ] (./adm1f.toc)
 \tf@toc=\write6
 \openout6 = `adm1f.toc'.
 
-
-[1
+ [1
 
 ] [2
 
 ]
-<digester_m.png, id=91, 585.8688pt x 330.033pt>
+<digester_m.png, id=116, 585.8688pt x 330.033pt>
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
 22.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 File: digester_m.png Graphic file (type png)
@@ -946,7 +952,7 @@ LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [17]
-<jupyter_notebook_Steady_State_Run_14_0.png, id=217, 412.54124pt x 284.06125pt>
+<jupyter_notebook_Steady_State_Run_14_0.png, id=242, 412.54124pt x 284.06125pt>
 
 File: jupyter_notebook_Steady_State_Run_14_0.png Graphic file (type png)
 <use jupyter_notebook_Steady_State_Run_14_0.png>
@@ -958,14 +964,14 @@ Underfull \vbox (badness 10000) detected at line 3949
  []
 
 [18] [19 <./jupyter_notebook_Steady_State_Run_14_0.png>]
-<jupyter_notebook_execution_time_9_1.png, id=230, 407.5225pt x 271.0125pt>
+<jupyter_notebook_execution_time_9_1.png, id=254, 407.5225pt x 271.0125pt>
 File: jupyter_notebook_execution_time_9_1.png Graphic file (type png)
 <use jupyter_notebook_execution_time_9_1.png>
 Package pdftex.def Info: jupyter_notebook_execution_time_9_1.png  used on input
  line 4132.
 (pdftex.def)             Requested size: 305.65355pt x 203.263pt.
  [20 <./jupyter_notebook_execution_time_9_1.png>]
-<jupyter_notebook_execution_time_14_1.png, id=236, 398.48875pt x 271.0125pt>
+<jupyter_notebook_execution_time_14_1.png, id=260, 398.48875pt x 271.0125pt>
 File: jupyter_notebook_execution_time_14_1.png Graphic file (type png)
 <use jupyter_notebook_execution_time_14_1.png>
 Package pdftex.def Info: jupyter_notebook_execution_time_14_1.png  used on inpu
@@ -973,7 +979,7 @@ t line 4232.
 (pdftex.def)             Requested size: 298.87799pt x 203.263pt.
  [21 <./jupyter_notebook_execution_time_14_1.png>]
 [22] [23]
-<jupyter_notebook_ADM1F_SRT_2phase_11_0.png, id=259, 1208.515pt x 159.59625pt>
+<jupyter_notebook_ADM1F_SRT_2phase_11_0.png, id=282, 1208.515pt x 159.59625pt>
 File: jupyter_notebook_ADM1F_SRT_2phase_11_0.png Graphic file (type png)
 <use jupyter_notebook_ADM1F_SRT_2phase_11_0.png>
 Package pdftex.def Info: jupyter_notebook_ADM1F_SRT_2phase_11_0.png  used on in
@@ -986,7 +992,7 @@ LaTeX Font Warning: Font shape `TS1/cmtt/bx/n' undefined
 (Font)              for symbol `textquotesingle' on input line 4575.
 
 [25]
-<jupyter_notebook_ADM1F_SRT_2phase_21_1.png, id=271, 595.5048pt x 305.4612pt>
+<jupyter_notebook_ADM1F_SRT_2phase_21_1.png, id=294, 595.5048pt x 305.4612pt>
 File: jupyter_notebook_ADM1F_SRT_2phase_21_1.png Graphic file (type png)
 <use jupyter_notebook_ADM1F_SRT_2phase_21_1.png>
 Package pdftex.def Info: jupyter_notebook_ADM1F_SRT_2phase_21_1.png  used on in
@@ -997,7 +1003,7 @@ Underfull \vbox (badness 10000) detected at line 4769
  []
 
 [26] [27 <./jupyter_notebook_ADM1F_SRT_2phase_21_1.png>] [28] [29] [30]
-<jupyter_notebook_io_sensitivity_analysis_13_1.png, id=299, 1159.33125pt x 393.
+<jupyter_notebook_io_sensitivity_analysis_13_1.png, id=322, 1159.33125pt x 393.
 47pt>
 File: jupyter_notebook_io_sensitivity_analysis_13_1.png Graphic file (type png)
 
@@ -1005,7 +1011,7 @@ File: jupyter_notebook_io_sensitivity_analysis_13_1.png Graphic file (type png)
 Package pdftex.def Info: jupyter_notebook_io_sensitivity_analysis_13_1.png  use
 d on input line 5232.
 (pdftex.def)             Requested size: 452.9688pt x 153.73485pt.
-<jupyter_notebook_io_sensitivity_analysis_16_1.png, id=300, 626.34pt x 280.0462
+<jupyter_notebook_io_sensitivity_analysis_16_1.png, id=323, 626.34pt x 280.0462
 5pt>
 File: jupyter_notebook_io_sensitivity_analysis_16_1.png Graphic file (type png)
 
@@ -1013,7 +1019,7 @@ File: jupyter_notebook_io_sensitivity_analysis_16_1.png Graphic file (type png)
 Package pdftex.def Info: jupyter_notebook_io_sensitivity_analysis_16_1.png  use
 d on input line 5280.
 (pdftex.def)             Requested size: 452.981pt x 202.53476pt.
-<jupyter_notebook_io_sensitivity_analysis_17_0.png, id=301, 403.5075pt x 272.01
+<jupyter_notebook_io_sensitivity_analysis_17_0.png, id=324, 403.5075pt x 272.01
 625pt>
 File: jupyter_notebook_io_sensitivity_analysis_17_0.png Graphic file (type png)
 
@@ -1027,7 +1033,7 @@ Underfull \vbox (badness 10000) detected at line 5303
 
 [31 <./jupyter_notebook_io_sensitivity_analysis_13_1.png> <./jupyter_notebook_i
 o_sensitivity_analysis_16_1.png>]
-<jupyter_notebook_io_sensitivity_analysis_18_0.png, id=308, 618.31pt x 604.2575
+<jupyter_notebook_io_sensitivity_analysis_18_0.png, id=331, 618.31pt x 604.2575
 pt>
 File: jupyter_notebook_io_sensitivity_analysis_18_0.png Graphic file (type png)
 
@@ -1041,7 +1047,7 @@ Underfull \vbox (badness 10000) detected at line 5323
 
 [32 <./jupyter_notebook_io_sensitivity_analysis_17_0.png>] [33 <./jupyter_noteb
 ook_io_sensitivity_analysis_18_0.png>] [34]
-<jupyter_notebook_io_sensitivity_analysis_27_1.png, id=326, 1384.17125pt x 939.
+<jupyter_notebook_io_sensitivity_analysis_27_1.png, id=348, 1384.17125pt x 939.
 51pt>
 File: jupyter_notebook_io_sensitivity_analysis_27_1.png Graphic file (type png)
 
@@ -1080,30 +1086,30 @@ l.6102 ...otebook_parameter-calibration_24_0}.svg}
                                                   
 ? 
 [40]
-<pdftonormal.png, id=371, 505.89pt x 180.675pt>
+<pdftonormal.png, id=391, 505.89pt x 180.675pt>
 File: pdftonormal.png Graphic file (type png)
 <use pdftonormal.png>
 Package pdftex.def Info: pdftonormal.png  used on input line 6159.
 (pdftex.def)             Requested size: 452.97328pt x 161.78719pt.
-<phcontrol.png, id=373, 561.09625pt x 417.56pt>
+<phcontrol.png, id=393, 561.09625pt x 417.56pt>
 File: phcontrol.png Graphic file (type png)
 <use phcontrol.png>
 Package pdftex.def Info: phcontrol.png  used on input line 6181.
 (pdftex.def)             Requested size: 420.81259pt x 313.18832pt.
  [41 <./pdftonormal.png>]
-<flow1.png, id=381, 723.6636pt x 542.025pt>
+<flow1.png, id=401, 723.6636pt x 542.025pt>
 File: flow1.png Graphic file (type png)
 <use flow1.png>
 Package pdftex.def Info: flow1.png  used on input line 6186.
 (pdftex.def)             Requested size: 452.96222pt x 339.28583pt.
  [42 <./phcontrol.png> <./flow1.png>] [43]
-<jupyter_notebook_ph-control_8_0.png, id=396, 735.74875pt x 349.305pt>
+<jupyter_notebook_ph-control_8_0.png, id=415, 735.74875pt x 349.305pt>
 File: jupyter_notebook_ph-control_8_0.png Graphic file (type png)
 <use jupyter_notebook_ph-control_8_0.png>
 Package pdftex.def Info: jupyter_notebook_ph-control_8_0.png  used on input lin
 e 6352.
 (pdftex.def)             Requested size: 452.98238pt x 215.05847pt.
-<jupyter_notebook_ph-control_11_0.png, id=397, 735.74875pt x 349.305pt>
+<jupyter_notebook_ph-control_11_0.png, id=416, 735.74875pt x 349.305pt>
 File: jupyter_notebook_ph-control_11_0.png Graphic file (type png)
 <use jupyter_notebook_ph-control_11_0.png>
 Package pdftex.def Info: jupyter_notebook_ph-control_11_0.png  used on input li
@@ -1114,7 +1120,7 @@ Underfull \vbox (badness 10000) detected at line 6395
  []
 
 [44 <./jupyter_notebook_ph-control_8_0.png>]
-<jupyter_notebook_ph-control_14_0.png, id=403, 735.74875pt x 349.305pt>
+<jupyter_notebook_ph-control_14_0.png, id=422, 735.74875pt x 349.305pt>
 File: jupyter_notebook_ph-control_14_0.png Graphic file (type png)
 <use jupyter_notebook_ph-control_14_0.png>
 Package pdftex.def Info: jupyter_notebook_ph-control_14_0.png  used on input li
@@ -1129,63 +1135,51 @@ Chapter 6.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `adm1f.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `adm1f.out':
-(rerunfilecheck)             Before: 971AFBAD76861D32270186D06C58AD43;1534
-(rerunfilecheck)             After:  20826704813D9EDFA678AAA4620E50AB;2799.
+Package rerunfilecheck Info: File `adm1f.out' has not changed.
+(rerunfilecheck)             Checksum: 20826704813D9EDFA678AAA4620E50AB;2799.
  ) 
 Here is how much of TeX's memory you used:
- 13725 strings out of 478994
- 203133 string characters out of 5858185
- 744140 words of memory out of 5000000
- 30698 multiletter control sequences out of 15000+600000
+ 13723 strings out of 478994
+ 202941 string characters out of 5858185
+ 744627 words of memory out of 5000000
+ 30697 multiletter control sequences out of 15000+600000
  432640 words of font info for 91 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  83i,19n,88p,1521b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsubsection*.16} has been referenced but does n
-ot exist, replaced by a fixed one
-
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{
-/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/l
-ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texli
-ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2
-021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2021/
-texmf-dist/fonts/type1/public/cm-super/sfit0900.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texm
-f-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2021/texmf-
-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-di
-st/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist
-/fonts/type1/public/cm-super/sfso1728.pfb></usr/local/texlive/2021/texmf-dist/f
-onts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2021/texmf-dist/fon
-ts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
-ype1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
-e1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
-/public/cm-super/sfsx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
-ublic/cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
-lic/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
-c/cm-super/sftt0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
-cm-super/sftt1000.pfb>
-Output written on adm1f.pdf (53 pages, 1442525 bytes).
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive
+/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/public/cm-super/sfit0900.pfb></usr/local/texlive/2021/
+texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/te
+xmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2021/texm
+f-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-
+dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-di
+st/fonts/type1/public/cm-super/sfso1728.pfb></usr/local/texlive/2021/texmf-dist
+/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2021/texmf-dist/f
+onts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/2021/texmf-dist/fon
+ts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
+e1/public/cm-super/sfsx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
+ublic/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
+lic/cm-super/sftt0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
+c/cm-super/sftt1000.pfb>
+Output written on adm1f.pdf (53 pages, 1445078 bytes).
 PDF statistics:
- 553 PDF objects out of 1000 (max. 8388607)
- 426 compressed objects within 5 object streams
- 118 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 572 PDF objects out of 1000 (max. 8388607)
+ 445 compressed objects within 5 object streams
+ 117 named destinations out of 1000 (max. 500000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 
