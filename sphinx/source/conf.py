@@ -28,7 +28,7 @@ version = 'v0.1'
 release = '0.1'
 
 latex_documents = [
-    (master_doc, 'adm1f.tex', 'Anaerobic Digester Model \#1 Fast (ADM1F)',
+    (master_doc, 'adm1f.tex', 'Anaerobic Digestion Model \#1 Fast (ADM1F)',
      author.replace('  ', '\\and ').replace('  and ', '\\and and '),
      'manual'),
 ]
