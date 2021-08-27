@@ -1,4 +1,4 @@
-﻿1,Ssu,mg COD/L,soluble  monosaccharides
+1,Ssu,mg COD/L,soluble  monosaccharides
 2,Saa,mg COD/L,soluble  amino acids
 3,Sfa,mg COD/L,soluble  total LCFA 
 4,Sva,mg COD/L,soluble  total valerate
@@ -30,13 +30,13 @@
 30,Sbu-,mg COD/L,soluble total butyrate anion
 31,Spro-,mg COD/L,soluble total propionate anion
 32,Sac-,mg COD/L,soluble total acetate anion
-33,Shco3-,mmol C/L,soluble bicarbonate anion
-34,Sco2,mmol C/L,soluble carbon dioxide
+33,Shco3-,mg C/L,soluble bicarbonate anion
+34,Sco2,mg C/L,soluble carbon dioxide
 35,Snh3,mg N/L,soluble ammonia
 36,Snh4+,mg N/L,soluble ammonia cation (ammonium)
 37,"Sgas,h2",mg COD/L,soluble hydrogen gas
 38,"Sgas,ch4",mg COD/L,soluble methane gas
-39,"Sgas,co2",mmol C/L,soluble carbon dioxide gas
+39,"Sgas,co2",mg C/L,soluble carbon dioxide gas
 40,"pgas,h2",atm,partial pressure of gas hydrogen
 41,"pgas,ch4",atm,partial pressure of gas methane
 42,"pgas,co2",atm,partial pressure of gas carbon dioxide
