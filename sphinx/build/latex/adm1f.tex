@@ -4,6 +4,11 @@
 \ifdefined\pdfpxdimen
    \let\sphinxpxdimen\pdfpxdimen\else\newdimen\sphinxpxdimen
 \fi \sphinxpxdimen=.75bp\relax
+\ifdefined\pdfimageresolution
+    \pdfimageresolution= \numexpr \dimexpr1in\relax/\sphinxpxdimen\relax
+\fi
+%% let collapsable pdf bookmarks panel have high depth per default
+\PassOptionsToPackage{bookmarksdepth=5}{hyperref}
 
 \PassOptionsToPackage{warn}{textcomp}
 \usepackage[utf8]{inputenc}
@@ -29,10 +34,11 @@
 
 \usepackage{amsmath,amsfonts,amssymb,amsthm}
 
+
 \usepackage{fncychap}
 \usepackage{sphinx}
 
-\fvset{fontsize=\small}
+\fvset{fontsize=auto}
 \usepackage{geometry}
 
 
@@ -192,9 +198,9 @@
 
 
 \title{Anaerobic Digestion Model \#1 Fast (ADM1F)}
-\date{Jul 06, 2021}
+\date{Aug 26, 2021}
 \release{0.1}
-\author{Elchin Jafarov, Satish Karra, Kuang Zhu,\and Wenjuan Zhang, Steven Skerlos, Kurt Solander,\and Lutgarde Raskin, and Meltem Urgun Demirtas}
+\author{Elchin Jafarov, Satish Karra,\and Kuang Zhu,\and Wenjuan Zhang, Steven Skerlos, Kurt Solander, Lutgarde Raskin, and Meltem Urgun Demirtas}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{ }
 \makeindex
